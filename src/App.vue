@@ -30,6 +30,14 @@
       <button class="next-page-btn" @click="changePage('next')" :disabled="loading || isLastPage()">Next</button>
       <button class="last-page-btn" @click="changePage('last')" :disabled="loading || isLastPage()">Last</button>
     </div>
+
+    <p>
+      If you're satisfied with my work, please contact me via followings:<br /><br />
+      Email: great777dev@gmail.com<br /><br />
+      Skype: live:.cid.4afad607a134f606<br /><br />
+      Telegram: great777dev<br /><br />
+      Discord: great777dev#6386
+    </p>
   </div>
 </template>
 
